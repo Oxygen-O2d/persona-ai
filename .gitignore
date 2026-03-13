@@ -14,6 +14,7 @@ session_db/
 *.pdf
 *.docx
 *.txt
+!requirements.txt
 
 # OS stuff
 .DS_Store

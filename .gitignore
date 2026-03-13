@@ -1,0 +1,20 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+.env
+
+# Node.js
+node_modules/
+dist/
+.eslintcache
+
+# Local Database & Storage
+session_db/
+*.pdf
+*.docx
+*.txt
+
+# OS stuff
+.DS_Store
+Thumbs.db

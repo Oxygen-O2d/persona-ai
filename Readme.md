@@ -64,7 +64,7 @@ uvicorn app.main:app --reload
 ### Step 3: Frontend Setup
 
 ```bash
-cd frontend
+cd persona-frontend
 npm install
 npm run dev
 ```

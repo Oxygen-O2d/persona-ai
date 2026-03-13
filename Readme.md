@@ -35,27 +35,40 @@ Created by **Pratham Tailor**.
 * Node.js (v18+) and Python (3.10+).
 * Tesseract OCR installed on your system (for scanned PDF fallback).
 
-### Installation
+---
 
-1. **Clone the Repository**:
+### Step 1: Clone the Repository
+
 ```bash
-git clone https://github.com/Oxygen-02d/persona-ai.git
+git clone [https://github.com/Oxygen-02d/persona-ai.git](https://github.com/Oxygen-02d/persona-ai.git)
 cd persona-ai
+```
 
+### Step 2: Backend Setup
 
-
+```bash
 cd backend
 python -m venv venv
 
-# Windows:
+# Activate on Windows:
 venv\Scripts\activate
 
-# macOS/Linux:
+# Activate on macOS/Linux:
 source venv/bin/activate
 
+# Install dependencies and run
 pip install -r requirements.txt
 uvicorn app.main:app --reload
+```
 
+### Step 3: Frontend Setup
+
+```bash
 cd frontend
 npm install
 npm run dev
+```
+
+---
+
+*Built with ❤️ and Llama 3.1*
